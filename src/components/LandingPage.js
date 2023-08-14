@@ -12,7 +12,9 @@ function LandingPage() {
             <div className='img-container'>
             <img src="/images/holdinghands.png" className='image_body' alt="image" />
             </div>
-        
+            <div>
+              <p>hello</p>
+            </div>
         </body>
       </div>
     </>
