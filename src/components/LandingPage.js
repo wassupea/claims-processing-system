@@ -36,7 +36,7 @@ function LandingPage() {
                   <button className='hci'>Health Care Institution <i class="fa-solid fa-hospital"></i></button>
               </div>
               </div>
-              
+
 
             </div>
            
