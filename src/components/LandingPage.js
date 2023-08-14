@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import { Link } from 'react-router-dom'
+
 import '../componentsCSS/Landingpage.scss';
 
 function LandingPage() {
@@ -12,18 +12,26 @@ function LandingPage() {
             <div className='container'>
 
               <div className='img-container'>
-              <img src="/images/holdinghands.png" className='image_body' alt="image" />
+              <img src="/images/holdinghands.png" className='image_body' alt="image" /> 
               </div>
 
               <div className='start-container'>
 
-                <p>CARING FOR LIFE</p>
-                <h1>Lorem Ipsum Dolor Sit Amet Consectetur</h1>
+                <p className='caring'>CARING FOR LIFE</p> 
+                <p className='lorem'>Lorem Ipsum Dolor<br/> Sit Amet Consectetur</p> 
 
                 <div className='button-container'>
-                    <p>Get Started</p>
+                    <p>Get Started <i class="fa-solid fa-arrow-right"></i></p>
                 </div>
 
+              </div>
+
+
+              <div className='second-half'>
+               
+                 <button>Member <i class="fa-solid fa-user-group"></i> </button>    
+                  <button className='hci'>Health Care Institution <i class="fa-solid fa-hospital"></i></button>
+                
               </div>
 
 
