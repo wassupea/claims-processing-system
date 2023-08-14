@@ -10,9 +10,7 @@ function LandingPage() {
       <div>
         <body>
 
-            <div className='img-container'>
-            <img src="/images/holdinghands.png" className='image_body' alt="image" />
-            </div>
+           
           
 
             <div className='container'>
@@ -32,13 +30,13 @@ function LandingPage() {
 
               </div>
 
-
+              <div className='btns-container'>
               <div className='second-half'>
-               
                  <button>Member <i class="fa-solid fa-user-group"></i> </button>    
                   <button className='hci'>Health Care Institution <i class="fa-solid fa-hospital"></i></button>
-                
               </div>
+              </div>
+              
 
             </div>
            

@@ -45,43 +45,68 @@ body{
             font-size: 3rem;
           }
         }
-        .second-half{
-            display: flex;
-            color:white;
-            position: absolute;
-            top:29rem;
-            text-align: center;
-            justify-content: center;
-            transform: translate(100%, 100%);
+        // .second-half{
+        //     display: flex;
+        //     color:white;
+        //     position: absolute;
+        //     top:29rem;
+        //     text-align: center;
+        //     justify-content: center;
+        //     transform: translate(100%, 100%);
             
            
-            button{
-                background-color: #78BC71;
-                border-radius:5px ;
-                height: 9rem;
-                padding:2rem;
-                border: none;
-                width: 16rem;
-                color:white;
-                font-size: 1.2rem;
-            }
+        //     button{
+        //         background-color: #78BC71;
+        //         border-radius:5px ;
+        //         height: 9rem;
+        //         padding:2rem;
+        //         border: none;
+        //         width: 16rem;
+        //         color:white;
+        //         font-size: 1.2rem;
+        //     }
             
-            .hci{
-                margin-left: 1rem;
-                width: 16rem;
-                padding:2rem;
-                text-align: center;
-                background-color: #78BC71;
-                border-radius:5px ;
-                font-size: 1.2rem;
-            }
+        //     .hci{
+        //         margin-left: 1rem;
+        //         width: 16rem;
+        //         padding:2rem;
+        //         text-align: center;
+        //         background-color: #78BC71;
+        //         border-radius:5px ;
+        //         font-size: 1.2rem;
+        //     }
 
+        button{
+            background-color: yellow;
+            margin: 1rem;
+            color: white;
+            background-color: #78BC71 ;
+            border: none;
+            height: 8rem;
+            border-radius: 5px;
+
+        }
+
+        .btns-container{
+            position: absolute;
+            top: 36rem;
+            width: 100%;
+            justify-content: center;
+        }
+        .second-half{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
           
+        .second-half > button{
+            width: 20%;
+        }
             }
 
             
         }
-    }
+    
   
 
 
@@ -134,45 +159,59 @@ body{
                     }
                 }
               }
-              .second-half{
-                display: block;
-                color:white;
+            //   .second-half{
+            //     display: block;
+            //     color:white;
               
                 
-                text-align: center;
+            //     text-align: center;
                 
-                transform: translateY(-80%);
+            //     transform: translateY(-80%);
                 
                
-                button{
-                    background-color: #78BC71;
-                    border-radius:5px ;
-                    height: 6rem;
-                    width: 20rem;
-                    padding:2rem;
-                    border: none;
+            //     button{
+            //         background-color: #78BC71;
+            //         border-radius:5px ;
+            //         height: 6rem;
+            //         width: 20rem;
+            //         padding:2rem;
+            //         border: none;
                     
-                    color:white;
-                    font-size: 1.2rem;
-                }
+            //         color:white;
+            //         font-size: 1.2rem;
+            //     }
                 
-                .hci{
+            //     .hci{
                   
-                    background-color: #78BC71;
-                    border-radius:5px ;
-                    height: 6rem;
-                    width: 20rem;
-                    padding:2rem;
-                    border: none;
-                    margin-top: 0.5rem;
-                    margin-left: 0rem;
-                    color:white;
-                    font-size: 1.2rem;
-                }
-    
+            //         background-color: #78BC71;
+            //         border-radius:5px ;
+            //         height: 6rem;
+            //         width: 20rem;
+            //         padding:2rem;
+            //         border: none;
+            //         margin-top: 0.5rem;
+            //         margin-left: 0rem;
+            //         color:white;
+            //         font-size: 1.2rem;
+            //     }
+            .btns-container{
+                position: absolute;
+                top: 18rem;
+                width: 100%;
+                justify-content: center;
+            }
+            .second-half{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+              
+            .second-half > button{
+                width: 50%;
+                height: 5rem;
+            }
               
                 }
         }
     }
  
-}
