@@ -4,9 +4,17 @@
 }
 
 body{
-    .img-container{
-        img{
-            width: 100%;
+
+    .container{
+        display: flex;
+        .img-container{
+            img{
+                width: 100%;
+            }
         }
+    
     }
+  
+
+
 }

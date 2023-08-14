@@ -9,14 +9,26 @@ function LandingPage() {
     <>
       <div>
         <body>
-            <div className='img-container'>
-            <img src="/images/holdinghands.png" className='image_body' alt="image" />
+            <div className='container'>
+
+              <div className='img-container'>
+              <img src="/images/holdinghands.png" className='image_body' alt="image" />
+              </div>
+
+              <div className='start-container'>
+
+                <p>CARING FOR LIFE</p>
+                <h1>Lorem Ipsum Dolor Sit Amet Consectetur</h1>
+
+                <div className='button-container'>
+                    <p>Get Started</p>
+                </div>
+
+              </div>
+
+
             </div>
-            <div>
-              <p>hello</p>
-              <p>h</p>
-              <h1>ANO na</h1>
-            </div>
+           
         </body>
       </div>
     </>
