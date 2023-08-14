@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Work+Sans&display=swap');
+
+.navbar { /*The entire navbar*/
+    background: #F5F5F4;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    z-index: 999;
+  }
+  .navbar-container { /*makes the menus in placed in center*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    max-width: 1500px;
+  }
+ 
+  .nav-menu { /*text decor of the UL LI*/
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    justify-content:center;
+    margin-right: 2rem;
+  }
+  .navbar-logo img { /*Logo*/
+    position: absolute;
+    left: 80px;
+    top: 8px;
+  }
+ 
+  .nav-links { /*format of the navlinks*/
+    color: #013220;
+    display: flex;
+    font-family: 'Quicksand', sans-serif;
+    align-items: center;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-size: 13px;
+    height: 100%;
+  }
+  
+  .nav-links:hover {
+    font-weight: bold;
+    transition: all 0.2s ease-out;
+  }
+  .fa-bars { 
+    color: #013220;
+  }
+  .menu-icon { 
+    display: none;
+  }
+.nav-item{
+  font-family: 'Quicksand', sans-serif;
+}
+  
+  @media screen and (max-width: 960px) {
+    .NavbarItems {
+        position: relative;
+      }
+      .nav-menu { /*hides the menu links*/
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 90vh;
+        position: absolute;
+        top: 80px;
+        left: -100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+      }
+
+     
+      .menu-icon { /*makes the humburger button appear*/
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 50%);
+        font-size: 1.8rem;
+        cursor: pointer;
+      }
+      .nav-menu.active { /*place where menu links is transferred*/
+        background: #F5F5F4;
+        left: 0;
+        margin-top: -20px;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+      }
+      .nav-links {/*makes the nav-links centered*/
+        text-align: center;
+        padding: 2rem;
+        font-size: 16px;
+        width: 100%;
+        display: table;
+      }  
+      
+      .nav-links:hover {
+        background-color: #fff;
+        color: #242424;
+        border-radius: 0;
+      }
+      .menu-icon {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 60%);
+        font-size: 1.8rem;
+        cursor: pointer;
+      }
+      .fa-times {
+        color: #013220;
+        font-size: 2rem;
+      }
+      IMG.logo{ /*Logo*/
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+      
+        
+      }
+    
+
+    
+     
+
+    
+
+    
+    
+
+  }
+
+  
