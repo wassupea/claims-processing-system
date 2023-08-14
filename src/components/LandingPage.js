@@ -15,7 +15,7 @@ function LandingPage() {
             <div>
               <p>hello</p>
               <p>h</p>
-              <h1>ANO</h1>
+              <h1>ANO na</h1>
             </div>
         </body>
       </div>
