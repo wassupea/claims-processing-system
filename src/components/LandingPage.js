@@ -29,13 +29,13 @@ function LandingPage() {
 
               </div>
 
-
+              <div className='btns-container'>
               <div className='second-half'>
-               
                  <button>Member <i class="fa-solid fa-user-group"></i> </button>    
                   <button className='hci'>Health Care Institution <i class="fa-solid fa-hospital"></i></button>
-                
               </div>
+              </div>
+
 
 
               
