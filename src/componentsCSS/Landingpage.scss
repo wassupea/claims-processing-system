@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Work+Sans&display=swap');
 
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
+
+$white:#ffffff;
+$green:#78BC71;
 *{
     padding: 0;
     margin:0;
@@ -34,7 +37,7 @@ body{
           .caring{
             line-height: 1rem;
             letter-spacing:0.5rem;
-            color: #ffffff;
+            color: $white;
             font-weight: 900;
             
           }
@@ -47,12 +50,13 @@ body{
         }
         .second-half{
             display: flex;
-            color:white;
+            color:$white;
             position: absolute;
             top:29rem;
             text-align: center;
             justify-content: center;
             transform: translate(100%, 100%);
+            box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(148, 250, 181, 0.32) 0px 2px 16px 0px;
             
            
             button{
@@ -62,7 +66,7 @@ body{
                 padding:2rem;
                 border: none;
                 width: 16rem;
-                color:white;
+                color:$white;
                 font-size: 1.2rem;
             }
             
@@ -78,6 +82,22 @@ body{
 
           
             }
+
+            .parent {
+                display: grid;
+                grid-template-columns: repeat(5, 1fr);
+                grid-template-rows: repeat(5, 1fr);
+                grid-column-gap: 0px;
+                grid-row-gap: 0px;
+                }
+                
+                .div1 { grid-area: 1 / 1 / 2 / 6; }
+                .div2 { grid-area: 2 / 1 / 3 / 2; }
+                .div3 { grid-area: 2 / 1 / 6 / 2; }
+                .div4 { grid-area: 2 / 2 / 3 / 3; }
+                .div5 { grid-area: 2 / 2 / 6 / 5; }
+                .div6 { grid-area: 2 / 5 / 3 / 6; }
+                .div7 { grid-area: 2 / 5 / 6 / 6; }
 
             
         }

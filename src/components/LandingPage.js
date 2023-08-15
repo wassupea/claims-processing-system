@@ -10,9 +10,6 @@ function LandingPage() {
       <div>
         <body>
 
-            <div className='img-container'>
-            <img src="/images/holdinghands.png" className='image_body' alt="image" />
-            </div>
           
 
             <div className='container'>
@@ -40,6 +37,8 @@ function LandingPage() {
                 
               </div>
 
+
+              
             </div>
            
         </body>
